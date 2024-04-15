@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Web Site</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+        integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="/eduford_img/logo.png"></a>
+            <div class="navlink" id="navLinks">
+                <i class="fa-solid fa-bars" onclick="hidemenu"></i>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./course.html">COURSE</a></li>
+                    <li><a href="./blog.html">BLOG</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs for 2024</h1>
+    </section>
+
+    <!---------Blog Page Content------>
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="/eduford_img/certificate.jpg">
+                <h2>Our Certificate & Online Programs for 2024</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque veniam nihil exercitationem, saepe
+                    in, iure ipsa tempora deleniti architecto incidunt deserunt, eos inventore expedita quia fugiat
+                    vitae consectetur rerum quidem.</p>
+                <br>
+                <p>orem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam aliquam cum voluptatibus autem aut
+                    dolorum perspiciatis molestiae, optio maxime quibusdam nulla, vitae incidunt animi! Debitis placeat
+                    enim iusto nihil eius Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, sint
+                    ducimus, quisquam,
+                    consequuntur enim nisi rem ratione voluptatem eveniet incidunt est adipisci facere dolor dolorem
+                    nihil tempore non optio atque?</p>
+                <br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam aliquam cum voluptatibus autem aut
+                    dolorum perspiciatis molestiae, optio maxime quibusdam nulla, vitae incidunt animi! Debitis placeat
+                    enim iusto nihil eius.</p>
+                <br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, sint ducimus, quisquam,
+                    consequuntur enim nisi rem ratione voluptatem eveniet incidunt est adipisci facere dolor dolorem
+                    nihil tempore non optio atque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dolore
+                    ullam et voluptas pariatur
+                    nesciunt error distinctio ut magni sed quisquam quasi dolorum ad veritatis architecto dolor sequi,
+                    fugit adipisci.</p>
+
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                    </form>
+                </div>
+
+
+
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>27</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>50</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>54</span>
+                </div>
+                <div>
+                    <span>Auto CAD</span>
+                    <span>30</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>60</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>70</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!---------Footer------>
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore mollitia aliquam voluptatibus sit
+            nostrum!<br>
+            Nulla, dignissimos! Qui natus sed eius expedita voluptatibus similique. Dolores commodi excepturi omnis.
+            Illo, fugiat quis.</p>
+        <div class="icons">
+
+
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+        <p>Made by <i class="fa-brands fa-heart-o">NITHIN KRISHNAN</i></p>
+    </section>
+
+
+    <!---------javascript for toggle menu------>
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showmenu() {
+            navLinks.style.right = "0"
+        }
+        function hidemenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+
+</body>
+
+</html>
